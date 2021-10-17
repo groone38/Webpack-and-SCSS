@@ -1,0 +1,10 @@
+@import 'variebles';
+
+.grid-card {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    margin-top: 150px;
+    p {
+        color: $text-color;
+    }
+}

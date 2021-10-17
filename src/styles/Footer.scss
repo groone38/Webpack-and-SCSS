@@ -1,0 +1,31 @@
+@import 'variebles';
+
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    h2 {
+        color: $logo-color;
+    }
+    button {
+        background-color: $btn-color;
+        color: $btn-text-col;
+        padding: $btn-p;
+        border-radius: 5px;
+    }
+}
+
+.footer-bot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-social {
+    display: flex;
+    align-items: center;
+    img {
+        margin-left: 40px;
+    }
+}

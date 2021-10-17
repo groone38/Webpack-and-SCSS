@@ -1,0 +1,61 @@
+@import 'variebles';
+
+* {
+    padding: 0;
+}
+
+.wrap {
+    max-width: 1200px;
+    margin: 20px auto 0;
+}
+
+.main {
+    display: flex;
+    margin-top: 100px;
+}
+
+.main-text {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.text {
+    width: 60%;
+    p {
+        color: #505F98;
+    }
+}
+
+.nain-text-btn {
+    width: 60%;
+    display: flex;
+    justify-content: start;
+    margin-top: 69px;
+    button {
+        width: 189px;
+        padding: 5px;
+    }
+    .text-btn {
+        margin-right: 30px;
+        background-color: $btn-color;
+        color: $btn-text-col;
+    }
+    .text-btn2 {
+        color: $logo-color;
+        background-color: white;
+        border: 1px solid $logo-color;
+    }
+}
+
+.main-img {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    img {
+        width: 100%;
+        object-fit: cover;
+        
+    }
+}

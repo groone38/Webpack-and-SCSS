@@ -1,0 +1,43 @@
+@import 'variebles';
+
+* {
+    padding: 0;
+}
+
+.wrap {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-text {
+    display: flex;
+    list-style-type: $none;
+    li:nth-child(2) {
+        margin-left: 60px;
+    }
+    li:nth-child(3) {
+        margin-left: 60px;
+    }
+    a {
+        text-decoration: $none;
+        color: $text-color;
+    }
+}
+
+.logo {
+    color: $logo-color;
+    font-weight: $logo-weight;
+}
+
+.nav-btn {
+   padding: $btn-p;
+   width: $btn-w;
+   color: $btn-text-col;
+   background-color: $btn-color;
+}

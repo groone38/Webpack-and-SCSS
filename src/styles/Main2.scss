@@ -1,0 +1,15 @@
+@import 'variebles';
+
+.main-block {
+    display: flex;
+}
+
+.main-card {
+    display: flex;
+}
+.main-text {
+    width: 70%;
+    p {
+        color: $text-color;
+    }
+}

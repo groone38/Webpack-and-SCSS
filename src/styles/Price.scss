@@ -1,0 +1,33 @@
+@import 'variebles';
+
+.path {
+    margin-top: 100px;
+    position: relative;
+    width: 100%;
+    margin-bottom: 60px;
+}
+
+.path-text {
+    position: absolute;
+    top: 200px;
+    left: 349px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 35%;
+}
+
+.path-price {
+    text-align: center;
+}
+
+.path-btn {
+    text-align: center;
+}
+
+.btn-path {
+    background-color: $btn-color;
+    color: $btn-text-col;
+    padding: $btn-p;
+    border-radius: 5px;
+}
